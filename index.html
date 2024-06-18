@@ -26,26 +26,41 @@
     <link rel="stylesheet" href="./assets/css/loopple/loopple.css">
 </head>
 
-<body class="bg-gray-100">
+<body class="bg-grey-100">
     <div>
         <!--Component 1-->
         <div class="mx-auto bg-white">
-          </div>
-            <!-- Main container with navigation and header content -->
-            <div class="relative flex flex-wrap items-center justify-between w-full shrink-0"></div>
-            <div class="px-4">
+          <!-- Main container with navigation and header content -->
+          <!-- </div> -->
+            <div class="relative flex flex-wrap items-center justify-between w-full shrink-0">
+              <div class="px-4">
                 <img class="h-8" src="./assets/component-1/navigation/cache-bank-logo.png">
-            </div>
-            <div class="hidden md:flex items-center justify-between text-black gap-8">
-                <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#product">Product</a>
-                <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#features">Features</a>
-                <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#pricing">Get Started</a>
-                <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#company">Contact</a>
+              </div>
+            <div class="hidden md:flex items-center justify-between text-black gap-12">
+                <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900"
+                 href="#product">
+                 Product</a>
+                <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" 
+                href="#features">
+                Features</a>
+                <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" 
+                href="#pricing">
+                Get Started</a>
+                <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" 
+                href="#contact">
+                Contact</a>
             </div>
             <div class=" hidden p-4 gap-8 items-center md:flex">
-                <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">Log In</button>
-                <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
+                <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">
+                  Log In
+                </button>
+                <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">
+                  Sign Up
+                </button>
             </div>
+        </div>
+    </div>
+            <!--SVG for mobile menu icon-->
             <button class="p-4 md:hidden" id="mobile-menu-toggle">
                 <svg
                 fill="none"
@@ -75,16 +90,28 @@
                 </defs>
               </svg>
             </button>
-            <div class="absolute hidden md:hidden flex flex-col items-start justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full shadow-main px-4 py-8" id="mobile-menu">
-                    <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#product">Product</a>
-                    <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#features">Features</a>
-                    <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#pricing">Get Started</a>
-                    <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" href="#company">Contact</a>
-                    <button class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">Log In</button>
-                    <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up</button>
+          <div class="absolute hidden md:hidden flex flex-col items-start justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full shadow-main px-4 py-8" id="mobile-menu">
+                    <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" 
+                    href="#product">
+                    Product</a>
+                    <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" 
+                    href="#features">
+                    Features</a>
+                    <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" 
+                    href="#pricing">
+                    Get Started</a>
+                    <a class="text-sm font-normal text-dark-grey-700 hover:text-dark-grey-900" 
+                    href="#company">
+                    Contact</a>
+                    <button class="text-sm font-normal text-dark-grey-800 hover:text-sm text-dark-grey-900">
+                      Log In</button>
+                    <button class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">
+                      Sign Up</button>
             </div>
          </div>
         </div>
+
+        
         <!--Component 2: Hero and Endorsements-->
         <section class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5">
             <div class="flex flex-col justify-center col-span-1 text-center lg:text-start ">
